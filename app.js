@@ -2,7 +2,7 @@ console.log("Hello World!\n==========\n");
 
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
-printOdds();
+printOdds(100);
 function printOdds(count){
     if(count <=0){
         console.log("Number can not be negative.")
@@ -15,7 +15,7 @@ function printOdds(count){
 }
 // Exercise 2 Section 
 console.log("EXERCISE 2:\n==========\n");
-checkAge();
+checkAge(18);
 function checkAge(userName, age){
     let aboveSixteen = `Congrats ${userName}, you can drive!`;
     let belowSixteen = `Sorry ${userName}, but you need to wait until you're 16.`;
@@ -28,7 +28,7 @@ function checkAge(userName, age){
 }
 // Exercise 3 Section 
 console.log("EXERCISE 3:\n==========\n");
-whichQuadrant();
+whichQuadrant(5, -1);
 function whichQuadrant(x, y){
     if (x >0 && y > 0){
         console.log(`your point is in quadrant 1`)
@@ -54,7 +54,7 @@ function whichQuadrant(x, y){
 }
 // Exercise 4 Section 
 console.log("EXERCISE 4:\n==========\n");
-isTriangle();
+isTriangle(2, 3, 4);
 function isTriangle(s1, s2, s3){
     if (s1 == null || s2 == null || s3 == null){
         console.log("invalid input")
